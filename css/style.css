@@ -5,11 +5,22 @@
 }
 /* reset */
 
+@font-face {
+    font-family: 'whitney', sans-serif;
+    src: url(../font/whitneybold.otf);
+    src: url(../font/whitneylight.otf);
+    src: url(../font/whitneymedium.otf);
+    src: url(../font/whitneysemibold.otf);
+    src: url(../font/whitneybook.otf);
+}
+
+body {
+    font-family: 'whitney', sans-serif;
+}
+
 
 /* i container hanno una dimensione fissa,  centrati orizzontalmente */
 .container {
-    border: dashed 2px black;
-    /* test */
 
     max-width: 1000px;
     margin-left: auto;
@@ -89,6 +100,7 @@ button {
     border-radius: 35px;
     padding: 12px;
     border: 0px;
+    
 }
 
 /* fine sezione navbar */
@@ -107,7 +119,7 @@ button {
 
 #hero .container-small h1 {
 
-    padding: 25px;
+    padding: 17px;
 }
 
 #hero .container-small p {
@@ -125,8 +137,10 @@ button {
 }
 
 #hero .container-small .btn-black {
+
     background-color: black;
     color: white;
+
 }
 
 /* fine sezione hero */
@@ -140,24 +154,20 @@ button {
 .column-big {
     
 
-    /* width: 60%; */
+    
     flex-grow: 1;
 }
 
 .column-small {
- 
 
     padding-top: 33px;
 
-    /* width: 40%; */
     width: 240px;
 }
 
 
-.container .big-content h2, h4, button {
-
-    text-align: center;
-   
+h4 {
+    margin-bottom: 20px;
 }
 
 h2 {
@@ -166,11 +176,14 @@ h2 {
     font-size: bold;
 }
 
-.column-small p {
+p {
     line-height: 1.5rem;
     
 }
 
+.container .big-content  {
+    text-align: center;
+}
 
 
 
