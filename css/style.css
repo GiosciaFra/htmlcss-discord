@@ -79,6 +79,8 @@ nav .logo {
 
 nav .nav-links {
     flex-grow: 1;
+
+    padding-top: 17px;
     
 }
 nav .nav-links ul {
@@ -152,8 +154,6 @@ button {
 
 .column-big {
     
-
-    
     flex-grow: 1;
 }
 
@@ -185,11 +185,10 @@ p {
 }
 
 button img {
-           
-            margin-right: 8px;  /* Spazio tra l'icona e il testo */
-            height: 13px; /* Altezza dell'icona */
-            width: 15px; /* Larghezza dell'icona */
-            
+            padding-top: 3px ;
+            margin-right: 4px;  
+            height: 13px; 
+            width: 15px;             
         
 }
 
