@@ -91,9 +91,6 @@ button {
     border: 0px;
 }
 
-
-
-
 /* fine sezione navbar */
 
 
@@ -119,9 +116,11 @@ button {
 }
 
 #hero .container-small .btn-white {
+
     background-color: white;
     color: black;
     margin-right: 25px;
+
 
 }
 
@@ -139,31 +138,52 @@ button {
 }
 
 .column-big {
-    background-color: #1e90ff;
-    height: 400px;
-    border: dashed 2px black;
-    /* test */
+    
 
     /* width: 60%; */
     flex-grow: 1;
 }
 
 .column-small {
-    background-color: #ffc0cb;
-    height: 400px;
-    border: dashed 2px black;
-    /* test */
+ 
+
+    padding-top: 33px;
 
     /* width: 40%; */
-    width: 400px;
+    width: 240px;
 }
 
 
-.big-content {
-    background-color: #228b22;
-    height: 600px;
-    /* test */
+.container .big-content h2, h4, button {
+
+    text-align: center;
+   
 }
+
+h2 {
+    margin-bottom: 30px;
+    font-family: sans-serif;
+    font-size: bold;
+}
+
+.column-small p {
+    line-height: 1.5rem;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* fine sezioni grigie */
 
 
