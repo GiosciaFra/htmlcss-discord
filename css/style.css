@@ -18,13 +18,15 @@
 }
 
 .container-small {
-    background-color: #ee82ee;
-    /* test */
 
     max-width: 800px;
 
     margin-left: auto;
     margin-right: auto;
+
+    text-align: center;
+
+    color: white;
 }
 
 
@@ -42,21 +44,19 @@ header, section {
 
 /* sezione navbar */
 nav {
-    background-color: #add8e6;
-    /* test */
+    background-image: url(../img/jumbo.png);
+    
     padding: 10px ;
+
+    
 }
 
 nav .container > * {
-    border: dashed 2px black;
-    /* test */
 
     padding: 10px;
 }
 
 nav .container {
-    background-color: #daa520;
-    /* test */
 
     display: flex;
 
@@ -69,6 +69,7 @@ nav .logo {
 
 nav .nav-links {
     flex-grow: 1;
+    
 }
 nav .nav-links ul {
     display: flex;
@@ -77,10 +78,19 @@ nav .nav-links ul {
     gap: 12px;
 }
 
+nav .nav-links ul li a {
+    text-decoration: none;
+    color: white;
+}
 
-nav .login {
-    width: 100px;
-    text-align: right;
+
+nav .login button {
+   max-width: 100%;
+    text-align: center;
+    color: black;
+    border-radius: 35px;
+    padding: 6px;
+   border: 0px;
 }
 /* fine sezione navbar */
 
@@ -88,8 +98,11 @@ nav .login {
 
 /* sezione hero */
 #hero {
-    background-color: #00008b;
-    /* test */
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;    
+    
 }
 
 #hero .container-small {
