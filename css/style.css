@@ -19,7 +19,7 @@
 
 .container-small {
 
-    max-width: 800px;
+    max-width: 600px;
 
     margin-left: auto;
     margin-right: auto;
@@ -48,7 +48,6 @@ nav {
     
     padding: 10px ;
 
-    
 }
 
 nav .container > * {
@@ -84,14 +83,17 @@ nav .nav-links ul li a {
 }
 
 
-nav .login button {
-   max-width: 100%;
+button {
+    max-width: 100%;
     text-align: center;
-    color: black;
     border-radius: 35px;
-    padding: 6px;
-   border: 0px;
+    padding: 12px;
+    border: 0px;
 }
+
+
+
+
 /* fine sezione navbar */
 
 
@@ -105,11 +107,28 @@ nav .login button {
     
 }
 
-#hero .container-small {
-    height: 300px;
-    /* test */
+
+#hero .container-small h1 {
+
+    padding: 25px;
 }
 
+#hero .container-small p {
+    margin: 20px;
+    line-height: 1.5rem;
+}
+
+#hero .container-small .btn-white {
+    background-color: white;
+    color: black;
+    margin-right: 25px;
+
+}
+
+#hero .container-small .btn-black {
+    background-color: black;
+    color: white;
+}
 
 /* fine sezione hero */
 
